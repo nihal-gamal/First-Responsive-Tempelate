@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    font-family: 'Libre Franklin', sans-serif;
+} */
+a{
+    text-decoration-line: none;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 81% !important;
+}
+a{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #999;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+h2{
+    font-family: 'Tenor sans', sans-serif;
+    color:black ;
+    margin-top: 15px;
+    
+}
+p{
+    font-family: 'Source Serif Pro', sans-serif;
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.p__two{
+    margin-top: 20px;
+}
+.reta{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #000;
+    font-size: 20px ;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* navbar */
+.logo{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+.navbar-ul{
+    margin-left: auto;
+}
+.nav-li{
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.nav-li::after{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 0px;
+    left: 3px;
+    top: 54px;
+    transition: .3s all ease-in;
+}
+.nav-li:hover::after{
+    height: 3px;
+    top: 50px;
+    background-color: black;
+}
+/* illustration */
+.illustration{
+    margin-top: 50px;
+}
+.illustration .illustration__box{
+    margin-top: 8rem;
+}
+/* .illustration .illustration__box figure{
+   
+} */
+.illustration  .img1{
+    height: 474.14px;
+}
+.illustration .photography{
+    margin-top: 30px;
+}
+/* latest */
+.latest{
+    margin-top: 70px;
+}
+.latest button{
+    transition:  .3s ease ;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin:  0 auto;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 70px;
+}
+.latest button:hover{
+    color: white;
+    background-color: black;
+}
+/* featured */
+.featured{
+    margin-top: 70px;
+}
+/* categories */
+.categories{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.categories .nicoland{
+    color: white;
+}
+.categories hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 2px;
+}
+.categories .categories__paragraph{
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.categories input{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+.categories form{
+    position: relative;
+}
+.categories button{
+    position: absolute;
+    width: 55px;
+    height: 42px;
+    background-color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    top: 0;
+    left: 100%;
+    
+}
+
+
+
+
+
+
+
+
